@@ -1,26 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.text-blue{
-  color: #0A033C !important;
+.text-blue {
+  color: #0a033c !important;
 }
 
-.bg-blue{
-background: #0A033C !important;
+.bg-blue {
+  background: #0a033c !important;
 }
 
-.icon{
+.icon {
   width: 35px;
   height: 35px;
   mix-blend-mode: multiply;
   object-fit: contain;
 }
 
-.line{
+.line {
   height: 1.5px;
   width: 100%;
   max-width: 150px;
@@ -28,7 +29,7 @@ background: #0A033C !important;
   margin: 0 10px;
 }
 
-.subject{
+.subject {
   width: 100%;
   max-width: 350px;
   height: 200px;
@@ -44,8 +45,48 @@ background: #0A033C !important;
   background-color: #0f0749;
 }
 
-@media screen and (max-width : 450px) {
-  .title{
+.subject_box {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.class_box {
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  background-color: #ffcbd1;
+}
+
+.features_box {
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  background-color: #fff1f1;
+  height: fit-content !important;
+}
+
+.features_box img {
+  max-width: 30px;
+  object-fit: contain;
+}
+
+.about_img{
+  max-width: 300px;
+}
+
+.institute_box{
+  max-width: 450px;
+  max-height: 360px;
+}
+
+.institute_box img{
+border-radius: 12px;
+filter: brightness(0.9);
+}
+
+.icon_box{
+  width: 22px;
+  height: 22px;
+}
+
+@media screen and (max-width: 450px) {
+  .title {
     font-size: 18px !important;
   }
 }

@@ -5,16 +5,16 @@ import chem from "../assets/chemistry.png"
 import phy from "../assets/physics.png"
 import Title from "./Title";
 
-const Subjects = () => {
+const Classes = () => {
   let subject = [
-    { image: maths, paragraph: "Mathematics" },
-    { image: bio, paragraph: "Biology" },
-    { image: chem, paragraph: "Chemistry" },
-    { image: phy, paragraph: "Physics" },
+    {  paragraph: "VII" },
+    {  paragraph: "VIII" },
+    {  paragraph: "IX" },
+    {  paragraph: "X" },
   ];
   return (
-    <div className="py-5">
-      <Title title={"SUBJECTS"} />
+    <div className="pt-5">
+      <Title title={"CLASSES"} />
 
       <div className="container">
         <div className="row">
@@ -25,8 +25,7 @@ const Subjects = () => {
                   <div
                     className="subject_box h-100 cursor_pointer p-4 rounded-2"
                   >
-                    <img src={obj.image} alt="image" className="w-100 h-100 object-fit-contain" />
-                    <p className=" fs_22 fw-medium ff_heebo color_darkgray mt-1 text-center fs-5 mb-0">
+                    <p className="class_box p-5 mt-1 text-center fs-2 mb-0 rounded">
                       {obj.paragraph}
                     </p>
                   </div>
@@ -40,4 +39,4 @@ const Subjects = () => {
   );
 };
 
-export default Subjects;
+export default Classes;

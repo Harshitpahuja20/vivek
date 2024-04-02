@@ -17,7 +17,7 @@ const Hero = () => {
                   type="button"
                   class="btn bg-blue text-white bsb-btn-3xl rounded-pill px-4 py-2"
                 >
-                  Visit us</button>
+                <a href="#contact-us" className="text-white text-decoration-none">VISIT US</a>  </button>
               </div>
             </div>
             <div class="col-12 col-lg-5 text-center">

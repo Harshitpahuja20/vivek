@@ -22,10 +22,10 @@
             <a className="nav-link active text-blue" aria-current="page" href="#">Home</a>
           </li>
           <li className="nav-item ms-3">
-            <a className="nav-link active text-blue" href="#">About</a>
+            <a className="nav-link active text-blue" href="#institute">About</a>
           </li>
           <li className="nav-item btn p-0 ms-3 bg-blue text-white rounded-pill px-2">
-            <a className="nav-link active text-white" href="#">Contact Us</a>
+            <a className="nav-link active text-white" href="#contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
