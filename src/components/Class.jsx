@@ -22,13 +22,9 @@ const Classes = () => {
             return (
               <>
                 <div key={i} className="col-lg-3 col-md-4 col-sm-6 mt-4 d-flex justify-content-center">
-                  <div
-                    className="subject_box h-100 cursor_pointer p-4 rounded-2"
-                  >
-                    <p className="class_box p-5 mt-1 text-center fs-2 mb-0 rounded">
+                    <div className="class_box p-5 mt-1 text-center fs-2 mb-0 rounded">
                       {obj.paragraph}
-                    </p>
-                  </div>
+                    </div>
                 </div>
               </>
             );

@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div className="d-flex gap-4 mt-4">
                   <span class="icon_box"><img src={fb} alt="" width={"100%"} height={"100%"} /></span>
-                  <h2 className="fw-normal fs-4"> Vivek Pahuja Classes</h2>
+                  <h2 className="fw-normal fs-4"> <a href="https://www.facebook.com/share/8sGyo7YrEfymZnxp/?mibextid=qi2Omg" className="text-black text-decoration-none">Vivek Pahuja Classes</a></h2>
                 </div>
               </div>
             </div>
