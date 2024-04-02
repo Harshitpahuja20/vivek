@@ -21,7 +21,7 @@ const Classes = () => {
           {subject.map((obj, i) => {
             return (
               <>
-                <div key={i} className="col-lg-3 col-md-4 col-sm-6 mt-4">
+                <div key={i} className="col-lg-3 col-md-4 col-sm-6 mt-4 d-flex justify-content-center">
                   <div
                     className="subject_box h-100 cursor_pointer p-4 rounded-2"
                   >
